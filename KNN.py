@@ -60,7 +60,3 @@ recall = metrics.recall_score(real_classifications, knn_classifications)
 precision = metrics.precision_score(real_classifications, knn_classifications)
 print(f"-------------------------------------\nK value = {kValue}\n-------------------------------------")
 print(f"Metrics:\nAccuracy: {accuracy}\nRecall: {recall}\nPrecision: {precision}\nConfusion Matrix:\n{matrix}")
-cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = matrix, display_labels = [False, True])
-
-cm_display.plot()
-plt.savefig(f"KNN_{kValue}.png")

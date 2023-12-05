@@ -1,0 +1,5 @@
+Foram implementados os código .py:
+    +* [KNN.py]: implementação do algoritmo KNN. Recebe da linha de comando o valor desejado para k e impreme as métricas de avaliação do modelo.
+    +* [Kmeans.py]: implementação do algoritmo Kmeans. Recebe da linha de comando o valor desejado para k e impreme os centroides encontrados.
+
+Ademais, foi implementado um código .ipynb para a visualização dos dados e dos resultados obtidos. Ele traz a implementação do algoritmo KNN e Kmeans, além de uma análise exploratória dos dados e uma análise dos resultados obtidos.
